@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Timesheet Management App
 
-## Getting Started
+A simplified Timesheet Management SaaS dashboard built with **Next.js 15**, **TypeScript**, and **TailwindCSS**, as part of the TenTwenty Frontend Developer Assessment.
 
-First, run the development server:
+> Design Link: [Figma Design](https://www.figma.com/design/WiVYDkslcyYux1T7lOZUsR/TenTwenty-Frontend-Exam-2025---Technical-Dashboard?node-id=0-1&t=E7C3BFNZbHGVQW9v-1)  
+> Password: `tentwentyfrontendexam@2025`
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- ✅ Login screen with email + password (dummy auth)
+- ✅ Dashboard listing timesheet entries
+- ✅ Internal API routing using Next.js App Router
+- ✅ TailwindCSS styling
+- ✅ Token handling via cookies/session
+- ✅ Responsive design
+- ✅ Form modal for Add/Edit entries
+- ✅ Validation & alerts
+- ✅ Middleware routing protection
+- ✅ Modular, scalable folder structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📦 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js 15 (App Router)](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [React Testing Library](https://testing-library.com/)
+- [Jest](https://jestjs.io/) (optional tests)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Getting Started
 
-## Deploy on Vercel
+### 1. Clone the repo
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+use these creds to login
+ email - user@example.com
+ password - password
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+1. Have created routes and api call locally for data 
+2. Used next auth for authentication.
+3. used hardcoded data, reloading will loose all the data . I haven't used local storage since i am using local api that's why
+4. Functionality is working fine, i have tested.
+5. Used the jest library for testing purposes.
